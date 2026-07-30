@@ -1,3 +1,5 @@
 databaseChangeLog:
   - include:
+      file: db/changelog/changes/001-create-table-usuario.yaml
+  - include:
       file: db/changelog/changes/002-crear-tabla-equipo.yaml
