@@ -1,4 +1,4 @@
-package com.alvg.lab.LABORATORIO;
+package com.alvg.lab.laboratorio;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
