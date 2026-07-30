@@ -1,0 +1,28 @@
+databaseChangeLog:
+  - changeSet:
+      id: 002-crear-tabla-equipo
+      author: mano
+      changes:
+        - createTable:
+            tableName: equipo
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: nombre
+                  type: VARCHAR(100)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: descripcion
+                  type: VARCHAR(255)
+              - column:
+                  name: fecha_creacion
+                  type: TIMESTAMP
+                  defaultValueComputed: now()
+                  constraints:
+                    nullable: false
