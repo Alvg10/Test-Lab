@@ -1,0 +1,38 @@
+databaseChangeLog:
+  - changeSet:
+      id: 013-crear-tabla-configuracion_usuario
+      author: mano
+      changes:
+        - createTable:
+            tableName: configuracion_usuario
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: usuario_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: tema
+                  type: VARCHAR(20)
+                  defaultValue: claro
+                  constraints:
+                    nullable: false
+              - column:
+                  name: notificaciones_activas
+                  type: BOOLEAN
+                  defaultValueBoolean: true
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseTableName: configuracion_usuario
+            baseColumnNames: usuario_id
+            constraintName: fk_configusuario_usuario
+            referencedTableName: usuario
+            referencedColumnNames: id

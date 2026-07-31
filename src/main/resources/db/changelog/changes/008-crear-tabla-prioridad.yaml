@@ -1,0 +1,20 @@
+databaseChangeLog:
+  - changeSet:
+      id: 008-crear-tabla-prioridad
+      author: mano
+      changes:
+        - createTable:
+            tableName: prioridad
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: nombre
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+                    unique: true

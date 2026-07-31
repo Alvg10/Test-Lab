@@ -3,3 +3,25 @@ databaseChangeLog:
       file: db/changelog/changes/001-create-table-usuario.yaml
   - include:
       file: db/changelog/changes/002-crear-tabla-equipo.yaml
+  - include:
+      file: db/changelog/changes/003-create-table-usuario-equipo.yaml
+  - include:
+      file: db/changelog/changes/004-crear-tabla-proyecto.yaml
+  - include:
+      file: db/changelog/changes/005-crear-tabla-usuario_proyecto.yaml
+  - include:
+      file: db/changelog/changes/006-crear-tabla-sprint.yaml
+  - include:
+      file: db/changelog/changes/007-crear-tabla-estado_tarea.yaml
+  - include:
+      file: db/changelog/changes/008-crear-tabla-prioridad.yaml
+  - include:
+      file: db/changelog/changes/009-crear-tabla-tarea.yaml
+  - include:
+      file: db/changelog/changes/010-crear-tabla-etiqueta.yaml
+  - include:
+      file: db/changelog/changes/011-crear-tabla-tarea_etiqueta.yaml
+  - include:
+      file: db/changelog/changes/012-crear-tabla-comentario.yaml
+  - include:
+      file: db/changelog/changes/013-crear-tabla-configuracion_usuario.yaml
