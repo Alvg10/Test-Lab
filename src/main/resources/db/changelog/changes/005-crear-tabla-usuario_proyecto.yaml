@@ -1,0 +1,41 @@
+databaseChangeLog:
+  - changeSet:
+      id: 005-crear-tabla-usuario_proyecto
+      author: mano
+      changes:
+        - createTable:
+            tableName: usuario_proyecto
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: usuario_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: proyecto_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: rol
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseTableName: usuario_proyecto
+            baseColumnNames: usuario_id
+            constraintName: fk_usuarioproyecto_usuario
+            referencedTableName: usuario
+            referencedColumnNames: id
+        - addForeignKeyConstraint:
+            baseTableName: usuario_proyecto
+            baseColumnNames: proyecto_id
+            constraintName: fk_usuarioproyecto_proyecto
+            referencedTableName: proyecto
+            referencedColumnNames: id

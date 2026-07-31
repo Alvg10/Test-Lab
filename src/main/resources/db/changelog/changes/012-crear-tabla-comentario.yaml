@@ -1,0 +1,47 @@
+databaseChangeLog:
+  - changeSet:
+      id: 012-crear-tabla-comentario
+      author: mano
+      changes:
+        - createTable:
+            tableName: comentario
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: contenido
+                  type: VARCHAR(1000)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: tarea_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: usuario_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: fecha_creacion
+                  type: TIMESTAMP
+                  defaultValueComputed: now()
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseTableName: comentario
+            baseColumnNames: tarea_id
+            constraintName: fk_comentario_tarea
+            referencedTableName: tarea
+            referencedColumnNames: id
+        - addForeignKeyConstraint:
+            baseTableName: comentario
+            baseColumnNames: usuario_id
+            constraintName: fk_comentario_usuario
+            referencedTableName: usuario
+            referencedColumnNames: id

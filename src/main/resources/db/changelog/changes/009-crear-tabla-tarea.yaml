@@ -1,0 +1,70 @@
+databaseChangeLog:
+  - changeSet:
+      id: 009-crear-tabla-tarea
+      author: mano
+      changes:
+        - createTable:
+            tableName: tarea
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: titulo
+                  type: VARCHAR(150)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: descripcion
+                  type: VARCHAR(500)
+              - column:
+                  name: sprint_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: usuario_asignado_id
+                  type: BIGINT
+              - column:
+                  name: estado_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: prioridad_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: fecha_creacion
+                  type: TIMESTAMP
+                  defaultValueComputed: now()
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseTableName: tarea
+            baseColumnNames: sprint_id
+            constraintName: fk_tarea_sprint
+            referencedTableName: sprint
+            referencedColumnNames: id
+        - addForeignKeyConstraint:
+            baseTableName: tarea
+            baseColumnNames: usuario_asignado_id
+            constraintName: fk_tarea_usuario
+            referencedTableName: usuario
+            referencedColumnNames: id
+        - addForeignKeyConstraint:
+            baseTableName: tarea
+            baseColumnNames: estado_id
+            constraintName: fk_tarea_estado
+            referencedTableName: estado_tarea
+            referencedColumnNames: id
+        - addForeignKeyConstraint:
+            baseTableName: tarea
+            baseColumnNames: prioridad_id
+            constraintName: fk_tarea_prioridad
+            referencedTableName: prioridad
+            referencedColumnNames: id

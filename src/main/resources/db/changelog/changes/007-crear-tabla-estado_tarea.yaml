@@ -1,0 +1,20 @@
+databaseChangeLog:
+  - changeSet:
+      id: 007-crear-tabla-estado_tarea
+      author: mano
+      changes:
+        - createTable:
+            tableName: estado_tarea
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: nombre
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+                    unique: true

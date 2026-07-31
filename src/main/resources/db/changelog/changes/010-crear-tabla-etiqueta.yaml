@@ -1,0 +1,23 @@
+databaseChangeLog:
+  - changeSet:
+      id: 010-crear-tabla-etiqueta
+      author: mano
+      changes:
+        - createTable:
+            tableName: etiqueta
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: nombre
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: color
+                  type: VARCHAR(20)

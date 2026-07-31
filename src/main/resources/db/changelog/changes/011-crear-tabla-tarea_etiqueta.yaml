@@ -1,0 +1,36 @@
+databaseChangeLog:
+  - changeSet:
+      id: 011-crear-tabla-tarea_etiqueta
+      author: mano
+      changes:
+        - createTable:
+            tableName: tarea_etiqueta
+            columns:
+              - column:
+                  name: id
+                  type: BIGSERIAL
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: tarea_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+              - column:
+                  name: etiqueta_id
+                  type: BIGINT
+                  constraints:
+                    nullable: false
+        - addForeignKeyConstraint:
+            baseTableName: tarea_etiqueta
+            baseColumnNames: tarea_id
+            constraintName: fk_tareaetiqueta_tarea
+            referencedTableName: tarea
+            referencedColumnNames: id
+        - addForeignKeyConstraint:
+            baseTableName: tarea_etiqueta
+            baseColumnNames: etiqueta_id
+            constraintName: fk_tareaetiqueta_etiqueta
+            referencedTableName: etiqueta
+            referencedColumnNames: id
