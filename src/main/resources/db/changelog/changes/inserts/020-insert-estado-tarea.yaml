@@ -1,0 +1,29 @@
+databaseChangeLog:
+  - changeSet:
+      id: 020-insert-estado-tarea
+      author: alvg
+
+      changes:
+        - insert:
+            tableName: estado_tarea
+            columns:
+              - column: { name: id, valueNumeric: 1 }
+              - column: { name: nombre, value: "PENDIENTE" }
+
+        - insert:
+            tableName: estado_tarea
+            columns:
+              - column: { name: id, valueNumeric: 2 }
+              - column: { name: nombre, value: "EN_PROGRESO" }
+
+        - insert:
+            tableName: estado_tarea
+            columns:
+              - column: { name: id, valueNumeric: 3 }
+              - column: { name: nombre, value: "EN_REVISION" }
+
+        - insert:
+            tableName: estado_tarea
+            columns:
+              - column: { name: id, valueNumeric: 4 }
+              - column: { name: nombre, value: "TERMINADA" }

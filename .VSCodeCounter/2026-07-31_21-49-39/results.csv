@@ -1,0 +1,38 @@
+"filename", "language", "Batch", "YAML", "Markdown", "Java Properties", "Java", "XML", "comment", "blank", "total"
+"/home/alvg/proyects/Test-Lab/.github/workflows/maven.yml", "YAML", 0, 21, 0, 0, 0, 0, 7, 8, 36
+"/home/alvg/proyects/Test-Lab/.mvn/wrapper/maven-wrapper.properties", "Java Properties", 0, 0, 0, 3, 0, 0, 0, 1, 4
+"/home/alvg/proyects/Test-Lab/README.md", "Markdown", 0, 0, 10, 0, 0, 0, 0, 2, 12
+"/home/alvg/proyects/Test-Lab/docker-compose.yml", "YAML", 0, 29, 0, 0, 0, 0, 0, 2, 31
+"/home/alvg/proyects/Test-Lab/mvnw.cmd", "Batch", 139, 0, 0, 0, 0, 0, 26, 25, 190
+"/home/alvg/proyects/Test-Lab/pom.xml", "XML", 0, 0, 0, 0, 0, 140, 2, 6, 148
+"/home/alvg/proyects/Test-Lab/src/main/java/com/alvg/lab/laboratorio/LaboratorioApplication.java", "Java", 0, 0, 0, 0, 9, 0, 0, 5, 14
+"/home/alvg/proyects/Test-Lab/src/main/resources/application.properties", "Java Properties", 0, 0, 0, 11, 0, 0, 6, 6, 23
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/001-create-table-usuario.yaml", "YAML", 0, 43, 0, 0, 0, 0, 0, 7, 50
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/002-crear-tabla-equipo.yaml", "YAML", 0, 28, 0, 0, 0, 0, 0, 0, 28
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/003-create-table-usuario-equipo.yaml", "YAML", 0, 52, 0, 0, 0, 0, 0, 9, 61
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/004-crear-tabla-proyecto.yaml", "YAML", 0, 45, 0, 0, 0, 0, 0, 0, 45
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/005-crear-tabla-usuario_proyecto.yaml", "YAML", 0, 41, 0, 0, 0, 0, 0, 0, 41
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/006-crear-tabla-sprint.yaml", "YAML", 0, 38, 0, 0, 0, 0, 0, 0, 38
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/007-crear-tabla-estado_tarea.yaml", "YAML", 0, 20, 0, 0, 0, 0, 0, 0, 20
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/008-crear-tabla-prioridad.yaml", "YAML", 0, 20, 0, 0, 0, 0, 0, 0, 20
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/009-crear-tabla-tarea.yaml", "YAML", 0, 70, 0, 0, 0, 0, 0, 0, 70
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/010-crear-tabla-etiqueta.yaml", "YAML", 0, 23, 0, 0, 0, 0, 0, 0, 23
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/011-crear-tabla-tarea_etiqueta.yaml", "YAML", 0, 36, 0, 0, 0, 0, 0, 0, 36
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/012-crear-tabla-comentario.yaml", "YAML", 0, 47, 0, 0, 0, 0, 0, 0, 47
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/013-crear-tabla-configuracion_usuario.yaml", "YAML", 0, 38, 0, 0, 0, 0, 0, 0, 38
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/014-insert-usuario.yaml", "YAML", 0, 194, 0, 0, 0, 0, 3, 12, 209
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/015-insert-equipo.yaml", "YAML", 0, 40, 0, 0, 0, 0, 0, 6, 46
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/016-insert-usuario-equipo.yaml", "YAML", 0, 545, 0, 0, 0, 0, 0, 31, 576
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/017-insert-proyecto.yaml", "YAML", 0, 191, 0, 0, 0, 0, 0, 11, 202
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/018-insert-usuario-proyecto.yaml", "YAML", 0, 605, 0, 0, 0, 0, 0, 41, 646
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/019-insert-sprint.yaml", "YAML", 0, 365, 0, 0, 0, 0, 0, 20, 385
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/020-insert-estado-tarea.yaml", "YAML", 0, 25, 0, 0, 0, 0, 0, 5, 30
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/021-insert-prioridad.yaml", "YAML", 0, 25, 0, 0, 0, 0, 0, 5, 30
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/022-insert-tarea.yaml", "YAML", 0, 815, 0, 0, 0, 0, 0, 37, 852
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/023-insert-etiqueta.yaml", "YAML", 0, 65, 0, 0, 0, 0, 0, 11, 76
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/024-insert-tarea-etiqueta.yaml", "YAML", 0, 420, 0, 0, 0, 0, 0, 34, 454
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/025-insert-configuracion-usuario.yaml", "YAML", 0, 360, 0, 0, 0, 0, 0, 19, 379
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/changes/inserts/026-insert-comentario.yaml", "YAML", 0, 300, 0, 0, 0, 0, 0, 19, 319
+"/home/alvg/proyects/Test-Lab/src/main/resources/db/changelog/db.changelog-master.yaml", "YAML", 0, 29, 0, 0, 0, 0, 0, 0, 29
+"/home/alvg/proyects/Test-Lab/src/test/java/com/alvg/lab/laboratorio/LaboratorioApplicationTests.java", "Java", 0, 0, 0, 0, 9, 0, 0, 5, 14
+"Total", "-", 139, 4530, 10, 14, 18, 140, 44, 327, 5222

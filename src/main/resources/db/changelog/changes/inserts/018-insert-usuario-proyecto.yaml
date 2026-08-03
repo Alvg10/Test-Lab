@@ -1,0 +1,645 @@
+databaseChangeLog:
+    - changeSet:
+          id: 018-insert-usuario-proyecto
+          author: alvg
+
+          changes:
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 1
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 1
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 1
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 2
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 2
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 1
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 3
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 3
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 1
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 4
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 4
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 2
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 5
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 5
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 2
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 6
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 6
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 2
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 7
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 7
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 3
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 8
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 8
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 3
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 9
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 9
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 3
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 10
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 10
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 4
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 11
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 1
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 5
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 12
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 2
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 6
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 13
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 3
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 7
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 14
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 4
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 8
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 15
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 5
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 9
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 16
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 6
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 10
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 17
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 7
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 4
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 18
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 8
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 5
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 19
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 9
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 6
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 20
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 10
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 7
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 21
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 1
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 8
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 22
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 2
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 9
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 23
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 3
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 10
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 24
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 4
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 1
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 25
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 5
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 2
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 26
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 6
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 3
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 27
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 7
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 4
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 28
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 8
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 5
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 29
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 9
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 6
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 30
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 10
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 7
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 31
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 1
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 9
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 32
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 2
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 10
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 33
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 3
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 2
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 34
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 4
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 3
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 35
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 5
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 4
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 36
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 6
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 5
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 37
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 7
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 6
+                        - column:
+                              name: rol
+                              value: "VIEWER"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 38
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 8
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 7
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 39
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 9
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 8
+                        - column:
+                              name: rol
+                              value: "COLABORADOR"
+
+              - insert:
+                    tableName: usuario_proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 40
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 10
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 9
+                        - column:
+                              name: rol
+                              value: "VIEWER"
