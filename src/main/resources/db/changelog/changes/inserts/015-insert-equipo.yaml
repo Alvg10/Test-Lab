@@ -1,0 +1,50 @@
+databaseChangeLog:
+  - changeSet:
+      id: 015-insert-equipo
+      author: alvg
+
+      changes:
+        - insert:
+            tableName: equipo
+            columns:
+              - column: { name: id, valueNumeric: 1 }
+              - column: { name: nombre, value: "Backend" }
+              - column: { name: descripcion, value: "Equipo Backend" }
+              - column:
+                  { name: fecha_creacion, valueDate: "2026-01-01T08:00:00" }
+
+        - insert:
+            tableName: equipo
+            columns:
+              - column: { name: id, valueNumeric: 2 }
+              - column: { name: nombre, value: "Frontend" }
+              - column: { name: descripcion, value: "Equipo Frontend" }
+              - column:
+                  { name: fecha_creacion, valueDate: "2026-01-01T08:00:00" }
+
+        - insert:
+            tableName: equipo
+            columns:
+              - column: { name: id, valueNumeric: 3 }
+              - column: { name: nombre, value: "DevOps" }
+              - column: { name: descripcion, value: "Equipo DevOps" }
+              - column:
+                  { name: fecha_creacion, valueDate: "2026-01-01T08:00:00" }
+
+        - insert:
+            tableName: equipo
+            columns:
+              - column: { name: id, valueNumeric: 4 }
+              - column: { name: nombre, value: "QA" }
+              - column: { name: descripcion, value: "Equipo QA" }
+              - column:
+                  { name: fecha_creacion, valueDate: "2026-01-01T08:00:00" }
+
+        - insert:
+            tableName: equipo
+            columns:
+              - column: { name: id, valueNumeric: 5 }
+              - column: { name: nombre, value: "Arquitectura" }
+              - column: { name: descripcion, value: "Arquitectura de Software" }
+              - column:
+                  { name: fecha_creacion, valueDate: "2026-01-01T08:00:00" }

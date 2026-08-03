@@ -1,0 +1,29 @@
+databaseChangeLog:
+  - changeSet:
+      id: 021-insert-prioridad
+      author: alvg
+
+      changes:
+        - insert:
+            tableName: prioridad
+            columns:
+              - column: { name: id, valueNumeric: 1 }
+              - column: { name: nombre, value: "BAJA" }
+
+        - insert:
+            tableName: prioridad
+            columns:
+              - column: { name: id, valueNumeric: 2 }
+              - column: { name: nombre, value: "MEDIA" }
+
+        - insert:
+            tableName: prioridad
+            columns:
+              - column: { name: id, valueNumeric: 3 }
+              - column: { name: nombre, value: "ALTA" }
+
+        - insert:
+            tableName: prioridad
+            columns:
+              - column: { name: id, valueNumeric: 4 }
+              - column: { name: nombre, value: "URGENTE" }

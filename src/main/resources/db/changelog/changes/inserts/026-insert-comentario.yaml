@@ -1,0 +1,325 @@
+databaseChangeLog:
+    - changeSet:
+          id: 026-insert-comentario
+          author: alvg
+
+          changes:
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 1
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 1
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 1
+                        - column:
+                              name: contenido
+                              value: "Se inició el desarrollo del login."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 2
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 2
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 2
+                        - column:
+                              name: contenido
+                              value: "Pendiente validar con el equipo."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 3
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 3
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 3
+                        - column:
+                              name: contenido
+                              value: "Se realizaron pruebas iniciales."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 4
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 4
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 4
+                        - column:
+                              name: contenido
+                              value: "Bug reproducido correctamente."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 5
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 5
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 5
+                        - column:
+                              name: contenido
+                              value: "Documentación actualizada."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 6
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 6
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 6
+                        - column:
+                              name: contenido
+                              value: "Cambio aprobado."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 7
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 7
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 7
+                        - column:
+                              name: contenido
+                              value: "Se requiere revisión técnica."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 8
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 8
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 8
+                        - column:
+                              name: contenido
+                              value: "Esperando respuesta del cliente."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 9
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 9
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 9
+                        - column:
+                              name: contenido
+                              value: "Corregido y enviado a QA."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 10
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 10
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 10
+                        - column:
+                              name: contenido
+                              value: "Listo para despliegue."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 11
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 11
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 1
+                        - column:
+                              name: contenido
+                              value: "Se agregó validación adicional."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 12
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 12
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 2
+                        - column:
+                              name: contenido
+                              value: "Pendiente revisión de código."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 13
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 13
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 3
+                        - column:
+                              name: contenido
+                              value: "Se mejoró el rendimiento."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 14
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 14
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 4
+                        - column:
+                              name: contenido
+                              value: "Se actualizó la documentación técnica."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 15
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 15
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 5
+                        - column:
+                              name: contenido
+                              value: "Validado por QA."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 16
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 16
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 6
+                        - column:
+                              name: contenido
+                              value: "Sin observaciones."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 17
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 17
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 7
+                        - column:
+                              name: contenido
+                              value: "Se requiere aprobación funcional."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 18
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 18
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 8
+                        - column:
+                              name: contenido
+                              value: "Trabajo finalizado correctamente."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 19
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 19
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 9
+                        - column:
+                              name: contenido
+                              value: "Se encontró un caso límite."
+
+              - insert:
+                    tableName: comentario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 20
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 20
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 10
+                        - column:
+                              name: contenido
+                              value: "Pendiente despliegue a producción."

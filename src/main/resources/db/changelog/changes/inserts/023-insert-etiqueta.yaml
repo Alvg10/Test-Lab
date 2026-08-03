@@ -1,0 +1,75 @@
+databaseChangeLog:
+  - changeSet:
+      id: 023-insert-etiqueta
+      author: alvg
+
+      changes:
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 1 }
+              - column: { name: nombre, value: "Backend" }
+              - column: { name: color, value: "#2563EB" }
+
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 2 }
+              - column: { name: nombre, value: "Frontend" }
+              - column: { name: color, value: "#10B981" }
+
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 3 }
+              - column: { name: nombre, value: "Bug" }
+              - column: { name: color, value: "#DC2626" }
+
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 4 }
+              - column: { name: nombre, value: "Mejora" }
+              - column: { name: color, value: "#F59E0B" }
+
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 5 }
+              - column: { name: nombre, value: "Documentación" }
+              - column: { name: color, value: "#8B5CF6" }
+
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 6 }
+              - column: { name: nombre, value: "Seguridad" }
+              - column: { name: color, value: "#EF4444" }
+
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 7 }
+              - column: { name: nombre, value: "DevOps" }
+              - column: { name: color, value: "#06B6D4" }
+
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 8 }
+              - column: { name: nombre, value: "Base de Datos" }
+              - column: { name: color, value: "#14B8A6" }
+
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 9 }
+              - column: { name: nombre, value: "API" }
+              - column: { name: color, value: "#6366F1" }
+
+        - insert:
+            tableName: etiqueta
+            columns:
+              - column: { name: id, valueNumeric: 10 }
+              - column: { name: nombre, value: "Testing" }
+              - column: { name: color, value: "#84CC16" }
