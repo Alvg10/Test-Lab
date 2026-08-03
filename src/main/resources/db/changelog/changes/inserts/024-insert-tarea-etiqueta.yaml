@@ -1,0 +1,460 @@
+databaseChangeLog:
+    - changeSet:
+          id: 024-insert-tarea-etiqueta
+          author: alvg
+
+          changes:
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 1
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 1
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 6
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 2
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 1
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 9
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 3
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 2
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 1
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 4
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 2
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 9
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 5
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 3
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 2
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 6
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 4
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 3
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 7
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 5
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 5
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 8
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 6
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 7
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 9
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 7
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 10
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 10
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 8
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 8
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 11
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 9
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 4
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 12
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 10
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 9
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 13
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 11
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 1
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 14
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 12
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 7
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 15
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 13
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 2
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 16
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 14
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 3
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 17
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 15
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 6
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 18
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 16
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 7
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 19
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 17
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 10
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 20
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 18
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 8
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 21
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 19
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 5
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 22
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 20
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 9
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 23
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 21
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 6
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 24
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 22
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 8
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 25
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 23
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 9
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 26
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 24
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 4
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 27
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 25
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 3
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 28
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 26
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 7
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 29
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 27
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 10
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 30
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 28
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 2
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 31
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 29
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 3
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 32
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 30
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 9
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 33
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 16
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 6
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 34
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 17
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 1
+
+              - insert:
+                    tableName: tarea_etiqueta
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 35
+                        - column:
+                              name: tarea_id
+                              valueNumeric: 18
+                        - column:
+                              name: etiqueta_id
+                              valueNumeric: 7

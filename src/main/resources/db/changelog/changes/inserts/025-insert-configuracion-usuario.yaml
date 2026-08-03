@@ -1,0 +1,167 @@
+databaseChangeLog:
+    - changeSet:
+          id: 025-insert-configuracion-usuario
+          author: alvg
+
+          changes:
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 1
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 1
+                        - column:
+                              name: tema
+                              value: "CLARO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: true
+
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 2
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 2
+                        - column:
+                              name: tema
+                              value: "OSCURO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: true
+
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 3
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 3
+                        - column:
+                              name: tema
+                              value: "CLARO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: false
+
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 4
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 4
+                        - column:
+                              name: tema
+                              value: "OSCURO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: true
+
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 5
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 5
+                        - column:
+                              name: tema
+                              value: "CLARO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: true
+
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 6
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 6
+                        - column:
+                              name: tema
+                              value: "OSCURO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: false
+
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 7
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 7
+                        - column:
+                              name: tema
+                              value: "CLARO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: true
+
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 8
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 8
+                        - column:
+                              name: tema
+                              value: "OSCURO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: true
+
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 9
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 9
+                        - column:
+                              name: tema
+                              value: "CLARO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: false
+
+              - insert:
+                    tableName: configuracion_usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 10
+                        - column:
+                              name: usuario_id
+                              valueNumeric: 10
+                        - column:
+                              name: tema
+                              value: "OSCURO"
+                        - column:
+                              name: notificaciones_activas
+                              valueBoolean: true
+
+          

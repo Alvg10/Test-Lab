@@ -1,0 +1,220 @@
+databaseChangeLog:
+    - changeSet:
+          id: 017-insert-proyecto
+          author: alvg
+
+          changes:
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column: { name: id, valueNumeric: 1 }
+                        - column:
+                              {
+                                  name: nombre,
+                                  value: "Sistema de Trámite Digital",
+                              }
+                        - column:
+                              {
+                                  name: descripcion,
+                                  value: "Modernización de trámites internos",
+                              }
+                        - column: { name: equipo_id, valueNumeric: 1 }
+                        - column:
+                              {
+                                  name: fecha_creacion,
+                                  valueDate: "2026-01-05T09:00:00",
+                              }
+                        - column: { name: activo, valueBoolean: true }
+
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column: { name: id, valueNumeric: 2 }
+                        - column: { name: nombre, value: "Portal Ciudadano" }
+                        - column:
+                              {
+                                  name: descripcion,
+                                  value: "Portal web de atención",
+                              }
+                        - column: { name: equipo_id, valueNumeric: 2 }
+                        - column:
+                              {
+                                  name: fecha_creacion,
+                                  valueDate: "2026-01-06T09:00:00",
+                              }
+                        - column: { name: activo, valueBoolean: true }
+
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 3
+                        - column:
+                              name: nombre
+                              value: "App de Fiscalización"
+                        - column:
+                              name: descripcion
+                              value: "Aplicación móvil"
+                        - column:
+                              name: equipo_id
+                              valueNumeric: 1
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-07T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 4
+                        - column:
+                              name: nombre
+                              value: "Sistema de Inventario"
+                        - column:
+                              name: descripcion
+                              value: "Control logístico"
+                        - column:
+                              name: equipo_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-08T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 5
+                        - column:
+                              name: nombre
+                              value: "Mesa de Ayuda"
+                        - column:
+                              name: descripcion
+                              value: "Gestión de incidencias"
+                        - column:
+                              name: equipo_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-09T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 6
+                        - column:
+                              name: nombre
+                              value: "Gestión Documental"
+                        - column:
+                              name: descripcion
+                              value: "Repositorio documental"
+                        - column:
+                              name: equipo_id
+                              valueNumeric: 5
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-10T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 7
+                        - column:
+                              name: nombre
+                              value: "Plataforma de Pagos"
+                        - column:
+                              name: descripcion
+                              value: "Pagos electrónicos"
+                        - column:
+                              name: equipo_id
+                              valueNumeric: 1
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-11T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 8
+                        - column:
+                              name: nombre
+                              value: "Control de Personal"
+                        - column:
+                              name: descripcion
+                              value: "RRHH"
+                        - column:
+                              name: equipo_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-12T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 9
+                        - column:
+                              name: nombre
+                              value: "Observatorio Nacional"
+                        - column:
+                              name: descripcion
+                              value: "Dashboard ejecutivo"
+                        - column:
+                              name: equipo_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-13T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: proyecto
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 10
+                        - column:
+                              name: nombre
+                              value: "SIGA 2.0"
+                        - column:
+                              name: descripcion
+                              value: "Actualización del sistema"
+                        - column:
+                              name: equipo_id
+                              valueNumeric: 5
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-14T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true

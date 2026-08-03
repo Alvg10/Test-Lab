@@ -1,0 +1,385 @@
+databaseChangeLog:
+    - changeSet:
+          id: 019-insert-sprint
+          author: alvg
+
+          changes:
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 1
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 1
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-02-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-02-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 2
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 1
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-02-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-02-28"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 3
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-02-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-02-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 4
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-02-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-02-28"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 5
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-03-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-03-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 6
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-03-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-03-28"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 7
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-04-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-04-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 8
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-04-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-04-28"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 9
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 5
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-05-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-05-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 10
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 5
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-05-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-05-28"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 11
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 6
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-06-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-06-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 12
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 6
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-06-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-06-28"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 13
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 7
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-07-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-07-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 14
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 7
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-07-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-07-28"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 15
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 8
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-08-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-08-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 16
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 8
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-08-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-08-28"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 17
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 9
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-09-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-09-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 18
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 9
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-09-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-09-28"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 19
+                        - column:
+                              name: nombre
+                              value: "Sprint 1"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 10
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-10-01"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-10-14"
+
+              - insert:
+                    tableName: sprint
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 20
+                        - column:
+                              name: nombre
+                              value: "Sprint 2"
+                        - column:
+                              name: proyecto_id
+                              valueNumeric: 10
+                        - column:
+                              name: fecha_inicio
+                              valueDate: "2026-10-15"
+                        - column:
+                              name: fecha_fin
+                              valueDate: "2026-10-28"

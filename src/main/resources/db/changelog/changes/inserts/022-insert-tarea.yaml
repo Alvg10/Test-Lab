@@ -1,0 +1,845 @@
+databaseChangeLog:
+    - changeSet:
+          id: 022-insert-tarea
+          author: alvg
+
+          changes:
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 1
+                        - column:
+                              name: titulo
+                              value: "Implementar login"
+                        - column:
+                              name: descripcion
+                              value: "Desarrollar autenticación JWT"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 1
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 1
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-02-02T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 2
+                        - column:
+                              name: titulo
+                              value: "Crear endpoint usuarios"
+                        - column:
+                              name: descripcion
+                              value: "CRUD de usuarios"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 1
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 2
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-02-02T10:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 3
+                        - column:
+                              name: titulo
+                              value: "Diseñar dashboard"
+                        - column:
+                              name: descripcion
+                              value: "Vista principal"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 2
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 3
+                        - column:
+                              name: estado_id
+                              valueNumeric: 3
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-02-03T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 4
+                        - column:
+                              name: titulo
+                              value: "Corregir bug de sesión"
+                        - column:
+                              name: descripcion
+                              value: "Timeout incorrecto"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 2
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 4
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-02-03T11:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 5
+                        - column:
+                              name: titulo
+                              value: "Actualizar documentación"
+                        - column:
+                              name: descripcion
+                              value: "Swagger"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 3
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 5
+                        - column:
+                              name: estado_id
+                              valueNumeric: 4
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 1
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-02-04T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 6
+                        - column:
+                              name: titulo
+                              value: "Implementar recuperación de contraseña"
+                        - column:
+                              name: descripcion
+                              value: "Enviar enlace por correo"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 6
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 1
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-03-16T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 7
+                        - column:
+                              name: titulo
+                              value: "Optimizar consulta de proyectos"
+                        - column:
+                              name: descripcion
+                              value: "Reducir tiempo de respuesta"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 6
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 2
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-03-16T11:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 8
+                        - column:
+                              name: titulo
+                              value: "Crear módulo de reportes"
+                        - column:
+                              name: descripcion
+                              value: "Reportes PDF"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 7
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 3
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-04-02T08:30:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 9
+                        - column:
+                              name: titulo
+                              value: "Agregar filtros avanzados"
+                        - column:
+                              name: descripcion
+                              value: "Filtro por fecha y estado"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 7
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 4
+                        - column:
+                              name: estado_id
+                              valueNumeric: 3
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-04-03T10:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 10
+                        - column:
+                              name: titulo
+                              value: "Implementar auditoría"
+                        - column:
+                              name: descripcion
+                              value: "Registrar cambios importantes"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 8
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 5
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-04-18T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 11
+                        - column:
+                              name: titulo
+                              value: "Actualizar dependencias Maven"
+                        - column:
+                              name: descripcion
+                              value: "Versiones estables"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 8
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 6
+                        - column:
+                              name: estado_id
+                              valueNumeric: 4
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 1
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-04-20T15:30:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 12
+                        - column:
+                              name: titulo
+                              value: "Crear pruebas unitarias"
+                        - column:
+                              name: descripcion
+                              value: "Cobertura de servicios"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 9
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 7
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-05-03T10:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 13
+                        - column:
+                              name: titulo
+                              value: "Validar formularios"
+                        - column:
+                              name: descripcion
+                              value: "Validaciones backend"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 9
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 8
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-05-04T09:30:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 14
+                        - column:
+                              name: titulo
+                              value: "Corregir paginación"
+                        - column:
+                              name: descripcion
+                              value: "Error en última página"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 10
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 9
+                        - column:
+                              name: estado_id
+                              valueNumeric: 3
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-05-18T14:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 15
+                        - column:
+                              name: titulo
+                              value: "Exportar a Excel"
+                        - column:
+                              name: descripcion
+                              value: "Reporte descargable"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 10
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 10
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-05-20T16:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 16
+                        - column:
+                              name: titulo
+                              value: "Integrar API RENIEC"
+                        - column:
+                              name: descripcion
+                              value: "Consulta de identidad"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 11
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 1
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-06-02T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 17
+                        - column:
+                              name: titulo
+                              value: "Refactorizar servicio usuario"
+                        - column:
+                              name: descripcion
+                              value: "Aplicar buenas prácticas"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 11
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 2
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-06-03T11:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 18
+                        - column:
+                              name: titulo
+                              value: "Agregar cache"
+                        - column:
+                              name: descripcion
+                              value: "Mejorar rendimiento"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 12
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 3
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-06-17T09:15:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 19
+                        - column:
+                              name: titulo
+                              value: "Configurar logs"
+                        - column:
+                              name: descripcion
+                              value: "Logs centralizados"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 12
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 4
+                        - column:
+                              name: estado_id
+                              valueNumeric: 4
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 1
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-06-18T13:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 20
+                        - column:
+                              name: titulo
+                              value: "Implementar notificaciones"
+                        - column:
+                              name: descripcion
+                              value: "Correo y sistema"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 13
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 5
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-07-02T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 21
+                        - column:
+                              name: titulo
+                              value: "Actualizar Dockerfile"
+                        - column:
+                              name: descripcion
+                              value: "Optimizar imagen"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 13
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 6
+                        - column:
+                              name: estado_id
+                              valueNumeric: 3
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-07-03T10:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 22
+                        - column:
+                              name: titulo
+                              value: "Crear endpoint estadísticas"
+                        - column:
+                              name: descripcion
+                              value: "Indicadores generales"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 14
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 7
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-07-18T08:45:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 23
+                        - column:
+                              name: titulo
+                              value: "Corregir validación JWT"
+                        - column:
+                              name: descripcion
+                              value: "Token expirado"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 14
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 8
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-07-19T09:30:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 24
+                        - column:
+                              name: titulo
+                              value: "Mejorar búsqueda"
+                        - column:
+                              name: descripcion
+                              value: "Búsqueda por múltiples criterios"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 15
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 9
+                        - column:
+                              name: estado_id
+                              valueNumeric: 2
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-08-02T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 25
+                        - column:
+                              name: titulo
+                              value: "Documentar API REST"
+                        - column:
+                              name: descripcion
+                              value: "Actualizar OpenAPI"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 15
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 10
+                        - column:
+                              name: estado_id
+                              valueNumeric: 4
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 1
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-08-03T15:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 26
+                        - column:
+                              name: titulo
+                              value: "Implementar CI/CD"
+                        - column:
+                              name: descripcion
+                              value: "Configurar pipeline de integración continua"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 16
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 6
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-09-01T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 27
+                        - column:
+                              name: titulo
+                              value: "Configurar monitoreo"
+                        - column:
+                              name: descripcion
+                              value: "Implementar métricas y alertas"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 16
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 7
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-09-02T10:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 28
+                        - column:
+                              name: titulo
+                              value: "Crear dashboard de administración"
+                        - column:
+                              name: descripcion
+                              value: "Panel de control para administradores"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 17
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 8
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 3
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-10-01T09:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 29
+                        - column:
+                              name: titulo
+                              value: "Optimizar rendimiento de consultas"
+                        - column:
+                              name: descripcion
+                              value: "Índices y consultas N+1"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 17
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 9
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 4
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-10-02T11:00:00"
+
+              - insert:
+                    tableName: tarea
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 30
+                        - column:
+                              name: titulo
+                              value: "Actualizar documentación de API"
+                        - column:
+                              name: descripcion
+                              value: "OpenAPI con ejemplos"
+                        - column:
+                              name: sprint_id
+                              valueNumeric: 18
+                        - column:
+                              name: usuario_asignado_id
+                              valueNumeric: 10
+                        - column:
+                              name: estado_id
+                              valueNumeric: 1
+                        - column:
+                              name: prioridad_id
+                              valueNumeric: 2
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-11-01T09:00:00"

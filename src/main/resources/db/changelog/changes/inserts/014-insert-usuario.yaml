@@ -1,0 +1,208 @@
+databaseChangeLog:
+    - changeSet:
+          id: 014-insert-usuario
+          author: alvg
+
+          changes:
+              # ==========================
+              # USUARIOS     NO USAR sintaxis flow style de YAML ({clave: valor}) SINO el formato map de YAML (clave: valor)
+              # ==========================
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column: { name: id, valueNumeric: 1 }
+                        - column: { name: nombre, value: "Juan Pérez" }
+                        - column:
+                              { name: email, value: "juan.perez@testlab.pe" }
+                        - column: { name: password, value: "$2a$10$password" }
+                        - column:
+                              {
+                                  name: fecha_creacion,
+                                  valueDate: "2026-01-10T09:00:00",
+                              }
+                        - column: { name: activo, valueBoolean: true }
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column: { name: id, valueNumeric: 2 }
+                        - column: { name: nombre, value: "María Quispe" }
+                        - column:
+                              { name: email, value: "maria.quispe@testlab.pe" }
+                        - column: { name: password, value: "$2a$10$password" }
+                        - column:
+                              {
+                                  name: fecha_creacion,
+                                  valueDate: "2026-01-11T09:00:00",
+                              }
+                        - column: { name: activo, valueBoolean: true }
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column: { name: id, valueNumeric: 3 }
+                        - column: { name: nombre, value: "Carlos Huamán" }
+                        - column:
+                              { name: email, value: "carlos.huaman@testlab.pe" }
+                        - column: { name: password, value: "$2a$10$password" }
+                        - column:
+                              {
+                                  name: fecha_creacion,
+                                  valueDate: "2026-01-12T09:00:00",
+                              }
+                        - column: { name: activo, valueBoolean: true }
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 4
+                        - column:
+                              name: nombre
+                              value: "Ana Rojas"
+                        - column:
+                              name: email
+                              value: "ana.rojas@testlab.pe"
+                        - column:
+                              name: password
+                              value: "$2a$10$password"
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-13T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 5
+                        - column:
+                              name: nombre
+                              value: "Luis Chávez"
+                        - column:
+                              name: email
+                              value: "luis.chavez@testlab.pe"
+                        - column:
+                              name: password
+                              value: "$2a$10$password"
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-14T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 6
+                        - column:
+                              name: nombre
+                              value: "Carmen Flores"
+                        - column:
+                              name: email
+                              value: "carmen.flores@testlab.pe"
+                        - column:
+                              name: password
+                              value: "$2a$10$password"
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-15T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 7
+                        - column:
+                              name: nombre
+                              value: "José Ramírez"
+                        - column:
+                              name: email
+                              value: "jose.ramirez@testlab.pe"
+                        - column:
+                              name: password
+                              value: "$2a$10$password"
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-16T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 8
+                        - column:
+                              name: nombre
+                              value: "Patricia Salas"
+                        - column:
+                              name: email
+                              value: "patricia.salas@testlab.pe"
+                        - column:
+                              name: password
+                              value: "$2a$10$password"
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-17T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 9
+                        - column:
+                              name: nombre
+                              value: "Diego Torres"
+                        - column:
+                              name: email
+                              value: "diego.torres@testlab.pe"
+                        - column:
+                              name: password
+                              value: "$2a$10$password"
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-18T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
+
+              - insert:
+                    tableName: usuario
+                    columns:
+                        - column:
+                              name: id
+                              valueNumeric: 10
+                        - column:
+                              name: nombre
+                              value: "Rosa Mendoza"
+                        - column:
+                              name: email
+                              value: "rosa.mendoza@testlab.pe"
+                        - column:
+                              name: password
+                              value: "$2a$10$password"
+                        - column:
+                              name: fecha_creacion
+                              valueDate: "2026-01-19T09:00:00"
+                        - column:
+                              name: activo
+                              valueBoolean: true
